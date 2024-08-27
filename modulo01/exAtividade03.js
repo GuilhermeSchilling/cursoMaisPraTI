@@ -176,8 +176,45 @@ const prompt = require("prompt-sync")(); //modulo prompt para input de dados
 // 13. Fazer um algoritmo para receber números decimais até que o usuário digite 0 e fazer
 // a média aritmética desses números.
 
+// let sum = 0;
+// let count = 0;
+// let num1 = 1;
+
+// while (num1 != 0) {
+//   num1 = parseFloat(
+//     prompt("Digite um número, digite 0 para calcular a média: ")
+//   );
+
+//   if (num1 != 0) {
+//     sum += num1;
+//     count++;
+//   }
+// }
+// let avg = sum / count;
+// console.log(`A média dos números é: ${avg}`);
+
 // 14. Crie um programa que calcula o fatorial de um número fornecido pelo usuário
 // utilizando um loop for ou while.
 
+// let num1 = Number(prompt("Digite um número para o cálculo de fatorial: "));
+
+// let fat = 1;
+
+// for (let i = 1; i <= num1; i++) {
+//   fat *= i;
+// }
+// console.log(`O resultado do fatorial de ${num1} é ${fat}!`);
+
 // 15. Escreva um programa que gera e imprime os primeiros 10 números da sequência de
 // Fibonacci utilizando um loop for.
+
+// function printFibonacci(counterLimit) {
+//     let a = 0, b = 1;
+//     for (let i = 0; i < counterLimit; i++) {
+//         console.log(a);
+//         let temp = a;
+//         a = b;
+//         b = temp + b;
+//     }
+// }
+// printFibonacci(10);

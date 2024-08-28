@@ -6,6 +6,7 @@ Utilizar a ferramenta(extensão) CodeRunner no VSCode.
 Comandos a serem executados no console ao baixar projeto:
 
 npm start
+
 npm i prompt-sync
 
 Para executar os exercícios é necessário descomentar a parte que será utilizada.

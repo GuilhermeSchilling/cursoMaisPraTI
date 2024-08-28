@@ -159,7 +159,7 @@ const prompt = require("prompt-sync")(); //modulo prompt para input de dados
 // let sum = 0;
 
 // for (let i = 1; i <= 5; i++) {
-//   num1 = Number(prompt(`Insira o numero ${i} da ordem da lista: `));
+//   num1 = Number(prompt(`Insira o numero ${i} da ordem da lista para fazer a soma de todos: `));
 //   sum += num1;
 // }
 // console.log(sum);

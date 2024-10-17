@@ -1,0 +1,30 @@
+body {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+table {
+  background-color: rgb(83, 83, 83);
+  border-collapse: collapse;
+}
+
+.resultado{
+    border: 1px solid black;
+}
+.botao {
+  border-radius: 20px;
+  background-color: rgb(145, 145, 145);
+  cursor: pointer;
+}
+
+/* input:hover {
+  background-color: rgb(122, 122, 122);
+}
+input:active {
+  background-color: rgb(68, 68, 68);
+}
+
+input {
+  background-color: rgb(116, 113, 113);
+} */
